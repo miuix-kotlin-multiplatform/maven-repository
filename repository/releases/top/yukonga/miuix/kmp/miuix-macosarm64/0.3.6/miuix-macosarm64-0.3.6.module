@@ -1,0 +1,262 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../miuix/0.3.6/miuix-0.3.6.module",
+    "group": "top.yukonga.miuix.kmp",
+    "module": "miuix",
+    "version": "0.3.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-macosArm64Main-0.3.6.klib",
+          "url": "miuix-macosarm64-0.3.6.klib",
+          "size": 814046,
+          "sha512": "6c247b249d70d79940d5e34f3e4ef94c380f2c89c9fbcefe1c4beb71106cb037e9018355ee2152429a4d618f7906d33e09c10e6f4f4de811765fac58b6869434",
+          "sha256": "e4a567d75822b4d82a01071bfdb77c9c2c4b21311bc9872bae8db9a65a15477b",
+          "sha1": "361835d83e5f8022ccdee00dc4ce13db827ad958",
+          "md5": "dce7bf0e77c4bd966440226e89ef9287"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "miuix-macosarm64-0.3.6-sources.jar",
+          "url": "miuix-macosarm64-0.3.6-sources.jar",
+          "size": 147677,
+          "sha512": "110fe9087e4b1253e4b8d61c4a3a996a42f2f30f782881952677958208eb3b2219bba570765af66ce6e2a5197dd9c5f26a95d77229eb7d23c6cf9a42370a1ed6",
+          "sha256": "e72f2577c1e2ac948787d36339398ec36c9fec4c3db98c49e91cf2564705df92",
+          "sha1": "e75d7cead703b98f4618c8d9b9ca079a28c03caf",
+          "md5": "c36dbe4461589073374faa8a2d55ae45"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-0.3.6.kotlin_resources.zip",
+          "url": "miuix-macosarm64-0.3.6-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "765646d08c36f038465a38d4fe7e080e01b9ee75a95b99074b63689f7cc49b4d4319f4fcdb3a0ae78118c650726fdf1ef4cb7246d75fd3ac8d23471f0d7f9dc2",
+          "sha256": "a009d828c65247a9657815963f7aa2c7eb4512aa630b6feaf8aaccfd7bc4f305",
+          "sha1": "bbe8fb81327e52e6bc3d18230ded47cbae565716",
+          "md5": "c180911872b757292e55a0acac2452f6"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-macosarm64-0.3.6-metadata.jar",
+          "url": "miuix-macosarm64-0.3.6-metadata.jar",
+          "size": 5209,
+          "sha512": "687b95fb24dbadf7695e0fd14fa8d99880b8d5add0a1369c467cf85113f6b175281a4434c2cdf4fd04cc6124687d9aabc196e02e21f5808deb506a36b7705052",
+          "sha256": "6d236f2dc3a134009e5f5e2150c8a80aaf089c785863c9791e31db731111a261",
+          "sha1": "16ff07afbc945818b5e260f2fde169eee86f3295",
+          "md5": "981d3b818bfb5c515d840c4eec10aefc"
+        }
+      ]
+    }
+  ]
+}

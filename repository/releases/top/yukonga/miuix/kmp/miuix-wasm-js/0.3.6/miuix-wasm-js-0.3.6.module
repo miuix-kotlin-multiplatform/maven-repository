@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../miuix/0.3.6/miuix-0.3.6.module",
+    "group": "top.yukonga.miuix.kmp",
+    "module": "miuix",
+    "version": "0.3.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-wasm-js-0.3.6.klib",
+          "url": "miuix-wasm-js-0.3.6.klib",
+          "size": 828534,
+          "sha512": "6eee5df5371114a535278340c40b3fbcef63d0c7d8a2aa16b4e7d0bd31771365f03d4618641ec6ad87cde30e34e576ab4763678642a9d530ba420086b52fbb44",
+          "sha256": "fad1e0583e150f1758b0e670ca6c6b4671555e7321ac1fc96b3877e8ea1416db",
+          "sha1": "a9b0ee09a7c0d89c24a6d31ec6cfef658834facf",
+          "md5": "b0e0c51b3e4bb6df00685c5e29b4d475"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-wasm-js-0.3.6.klib",
+          "url": "miuix-wasm-js-0.3.6.klib",
+          "size": 828534,
+          "sha512": "6eee5df5371114a535278340c40b3fbcef63d0c7d8a2aa16b4e7d0bd31771365f03d4618641ec6ad87cde30e34e576ab4763678642a9d530ba420086b52fbb44",
+          "sha256": "fad1e0583e150f1758b0e670ca6c6b4671555e7321ac1fc96b3877e8ea1416db",
+          "sha1": "a9b0ee09a7c0d89c24a6d31ec6cfef658834facf",
+          "md5": "b0e0c51b3e4bb6df00685c5e29b4d475"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "miuix-wasm-js-0.3.6-sources.jar",
+          "url": "miuix-wasm-js-0.3.6-sources.jar",
+          "size": 146960,
+          "sha512": "6703c24790e020b05b87bd6631c508ead80200d84cb1baa1708161285cb3ebb22cade49102b77cdcd2026d574bccde30ed8f207b95627a5c422786e73776d553",
+          "sha256": "92cd23b42415ac6fcff3a98c40e363f563a8537d59746d74016d3b0bc0032fb2",
+          "sha1": "e089812dcce821bd941e2384cab4ebef536cd086",
+          "md5": "c2bb953992ab82ab6412d332122ec1fd"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-0.3.6.kotlin_resources.zip",
+          "url": "miuix-wasm-js-0.3.6-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "999ec6c6c6f0e8b5ef01ee87855bc4d2a51d405ea867c62f41297cb75d950311b9d2ff3506839fae565c3a1e9822e5d52cf048758b53a5978699247dbe3a161b",
+          "sha256": "1642890c426c809b1f37bc90649d77e154a8656ace753ea9afbc03badf54df4b",
+          "sha1": "414ef5663e5a39948d70e8ce40b21dec3c94e36d",
+          "md5": "48a620c20a9877f94b32d5c75d2d65ce"
+        }
+      ]
+    }
+  ]
+}
