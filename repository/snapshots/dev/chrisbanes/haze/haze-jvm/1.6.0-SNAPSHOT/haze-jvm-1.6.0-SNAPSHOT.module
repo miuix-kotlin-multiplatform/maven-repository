@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../haze/1.6.0-SNAPSHOT/haze-1.6.0-SNAPSHOT.module",
+    "group": "dev.chrisbanes.haze",
+    "module": "haze",
+    "version": "1.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze-jvm.jar",
+          "url": "haze-jvm-1.6.0-SNAPSHOT.jar",
+          "size": 126431,
+          "sha512": "23fbc646e654899a67b9030a9dabd73fb154c611bc311e090b5b41905425faebfbbf774df1764bf745daf027cdf8e437f61adfd3d7dc82253c85c1ec8dc87666",
+          "sha256": "6b4ac2da209736637ef435ebce258a6067ed33e0f346abec1903593e21bfddcd",
+          "sha1": "cc73abf71e0d17cc33dff264cba05d48e69d3a59",
+          "md5": "9c72e7821b5ec5ee1d0625ad64714eb0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze-jvm.jar",
+          "url": "haze-jvm-1.6.0-SNAPSHOT.jar",
+          "size": 126431,
+          "sha512": "23fbc646e654899a67b9030a9dabd73fb154c611bc311e090b5b41905425faebfbbf774df1764bf745daf027cdf8e437f61adfd3d7dc82253c85c1ec8dc87666",
+          "sha256": "6b4ac2da209736637ef435ebce258a6067ed33e0f346abec1903593e21bfddcd",
+          "sha1": "cc73abf71e0d17cc33dff264cba05d48e69d3a59",
+          "md5": "9c72e7821b5ec5ee1d0625ad64714eb0"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "haze-jvm-sources.jar",
+          "url": "haze-jvm-1.6.0-SNAPSHOT-sources.jar",
+          "size": 32417,
+          "sha512": "5b5fbe4b4dd89e03252f563508bac10faf49d8ef80c7abe36c2b67d05ce522e664ff54f0f5e38e684b7a614338c0c9dd41e1d8f24215e63ce0e279c3551a1319",
+          "sha256": "d194a6a453e1eca1430885dfafdc424e26e80581c90586fe148b0968e193826b",
+          "sha1": "590d8921c8fdd79e1862fbc2c7dfb5f4bd0ada81",
+          "md5": "042d58d1598b693fb99430f1d29783ac"
+        }
+      ]
+    }
+  ]
+}

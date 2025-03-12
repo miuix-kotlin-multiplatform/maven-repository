@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../haze/1.6.0-SNAPSHOT/haze-1.6.0-SNAPSHOT.module",
+    "group": "dev.chrisbanes.haze",
+    "module": "haze",
+    "version": "1.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze-iosSimulatorArm64Main.klib",
+          "url": "haze-iossimulatorarm64-1.6.0-SNAPSHOT.klib",
+          "size": 158615,
+          "sha512": "86e8f0c5ca9e53ccd920e79c05420d3fed9e4e3d252fac1f96cd897bc5132d1063e1b41267bafa61770ddab8ea03794f1b0d9384a68c9fd6a8d669750e9dd0b5",
+          "sha256": "790547a60d225caf9660d797bc4e6f7694b4330624dbd0011e508b9abf4fb748",
+          "sha1": "077e431de13a7ce9fbd928b9de1233c74f89185b",
+          "md5": "c42ae05f7b913757c4e6bf70ea997fb2"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "haze-iossimulatorarm64-sources.jar",
+          "url": "haze-iossimulatorarm64-1.6.0-SNAPSHOT-sources.jar",
+          "size": 32516,
+          "sha512": "599e2661717ade412ba6d093ff6b8dba6606f8744f43f4bb6687e28830168b8039b7a6c67ada1326672f480c5255ddc6e895364a5dc9e8a2587e092a603fc1fd",
+          "sha256": "95deb1f157223120981261d3995da38f2c8f65af8fe1fadfae6c91a7c3c3755e",
+          "sha1": "f80f52691dc7e161c1e4d0bcdae755b2919913cc",
+          "md5": "92272a9f1782088e0badc1b349a551da"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze.kotlin_resources.zip",
+          "url": "haze-iossimulatorarm64-1.6.0-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
+          "size": 316,
+          "sha512": "dc337a340f8540c71b1302e01428e1338ba22909935de3af57ac9b5e575dd9988ef4713e96a3fceff12853069809cac08ba7e3725868c412850aa702fb3b4fa2",
+          "sha256": "0c2c9923e3184604279911cfe635ef030a855fc5928b7262a18faa8dc5da4e81",
+          "sha1": "6cc5db032ad6b30dafc740e1c0591cb960ae1462",
+          "md5": "cc9cb572e22447a7c12ca2e01c9e4971"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze-iossimulatorarm64-metadata.jar",
+          "url": "haze-iossimulatorarm64-1.6.0-SNAPSHOT-metadata.jar",
+          "size": 2856,
+          "sha512": "5864803b32eadd1e135d9e4663325a2164645c9241b589b45eb6f8c800ce42815c4592801489b2e05a26e8380acdb17a5507664cd87c5a0fff2258e7166fdb34",
+          "sha256": "4c3c5e6684a022cd81ab19e766ead4bd676f65abf0fcde8abf0f2007087ec4f4",
+          "sha1": "30a34152b5d4650fdd9dffb05d935b8573032059",
+          "md5": "82eb9deb3b74495dee09f88c2b86d815"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../haze/1.6.0-SNAPSHOT/haze-1.6.0-SNAPSHOT.module",
+    "group": "dev.chrisbanes.haze",
+    "module": "haze",
+    "version": "1.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze-macosX64Main.klib",
+          "url": "haze-macosx64-1.6.0-SNAPSHOT.klib",
+          "size": 158515,
+          "sha512": "d9829e0d129607f27760ce884f806dc8748c1fb64e1f8e297c359c9c9a1ebec11e417b6fde317ea76b2752f65c17c52b410bce731a14b6cd86a1458b88e1a18f",
+          "sha256": "1ee0a3f25ef62d4cd12d492675ac42a69fe593aa5529593cdbdf26a802be989e",
+          "sha1": "7340b329c59342cbf099822982381cb15d9995c5",
+          "md5": "6fd2dae665ee30a1c20f0c15a2dfb740"
+        }
+      ]
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "haze-macosx64-sources.jar",
+          "url": "haze-macosx64-1.6.0-SNAPSHOT-sources.jar",
+          "size": 32516,
+          "sha512": "599e2661717ade412ba6d093ff6b8dba6606f8744f43f4bb6687e28830168b8039b7a6c67ada1326672f480c5255ddc6e895364a5dc9e8a2587e092a603fc1fd",
+          "sha256": "95deb1f157223120981261d3995da38f2c8f65af8fe1fadfae6c91a7c3c3755e",
+          "sha1": "f80f52691dc7e161c1e4d0bcdae755b2919913cc",
+          "md5": "92272a9f1782088e0badc1b349a551da"
+        }
+      ]
+    },
+    {
+      "name": "macosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze.kotlin_resources.zip",
+          "url": "haze-macosx64-1.6.0-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
+          "size": 316,
+          "sha512": "76630aef2cf6dd5df1f2e33c4c7bdd6e04cdb6716b29da915da28bbe01f967e3c97b8d6e6959b5d9a20750c3073a44939df7a4afe8a0e292f90fab55a6dce95d",
+          "sha256": "5c3c660373a164db3c3eabd500b79b6acb92ea5b223377888505b0ffbdbde85e",
+          "sha1": "9c96efd539cb816d4b79d4a94e578ab4f7b13f3f",
+          "md5": "cd9b414e944723c1bc50ad2ff1f6e71c"
+        }
+      ]
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze-macosx64-metadata.jar",
+          "url": "haze-macosx64-1.6.0-SNAPSHOT-metadata.jar",
+          "size": 2856,
+          "sha512": "5864803b32eadd1e135d9e4663325a2164645c9241b589b45eb6f8c800ce42815c4592801489b2e05a26e8380acdb17a5507664cd87c5a0fff2258e7166fdb34",
+          "sha256": "4c3c5e6684a022cd81ab19e766ead4bd676f65abf0fcde8abf0f2007087ec4f4",
+          "sha1": "30a34152b5d4650fdd9dffb05d935b8573032059",
+          "md5": "82eb9deb3b74495dee09f88c2b86d815"
+        }
+      ]
+    }
+  ]
+}

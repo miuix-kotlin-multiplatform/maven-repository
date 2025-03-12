@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../haze/1.6.0-SNAPSHOT/haze-1.6.0-SNAPSHOT.module",
+    "group": "dev.chrisbanes.haze",
+    "module": "haze",
+    "version": "1.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze-js.klib",
+          "url": "haze-js-1.6.0-SNAPSHOT.klib",
+          "size": 3467771,
+          "sha512": "da61aaecdccb5dcfc2f21ed5273791616caf97c56be06d1a64e0379ada51f04b4733b07fd180ed2e046ced332cd0dc45f05317cc58bd8ad3889db89040b49f0d",
+          "sha256": "6a34d392ebc130258b9844673e88cddecf70a2e566e69c43ece54b93474c2116",
+          "sha1": "307aba2bcb07a7ca07caafa90e95573a2800e368",
+          "md5": "90af6cd2866b3432dc5afa97609254e4"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze-js.klib",
+          "url": "haze-js-1.6.0-SNAPSHOT.klib",
+          "size": 3467771,
+          "sha512": "da61aaecdccb5dcfc2f21ed5273791616caf97c56be06d1a64e0379ada51f04b4733b07fd180ed2e046ced332cd0dc45f05317cc58bd8ad3889db89040b49f0d",
+          "sha256": "6a34d392ebc130258b9844673e88cddecf70a2e566e69c43ece54b93474c2116",
+          "sha1": "307aba2bcb07a7ca07caafa90e95573a2800e368",
+          "md5": "90af6cd2866b3432dc5afa97609254e4"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "haze-js-sources.jar",
+          "url": "haze-js-1.6.0-SNAPSHOT-sources.jar",
+          "size": 32414,
+          "sha512": "0fad91d2d5363cf87883a53d1612dcf1b494a2e00673d291537f82b0a1fc43b2538fbc3d916cd5e7a8b83beda5a810778ec116f9b53387fbbb04db1b9099c4f4",
+          "sha256": "cda0c7cf6448378946338e5b7475eb653ecaade6e1be00411b3a8e0fd9cc9cd5",
+          "sha1": "5c094298e01caa33e1a0e0c9e002c8bb79e9ac93",
+          "md5": "7f331848a1e4afaef4f3f51dde195728"
+        }
+      ]
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haze.kotlin_resources.zip",
+          "url": "haze-js-1.6.0-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
+          "size": 316,
+          "sha512": "dc337a340f8540c71b1302e01428e1338ba22909935de3af57ac9b5e575dd9988ef4713e96a3fceff12853069809cac08ba7e3725868c412850aa702fb3b4fa2",
+          "sha256": "0c2c9923e3184604279911cfe635ef030a855fc5928b7262a18faa8dc5da4e81",
+          "sha1": "6cc5db032ad6b30dafc740e1c0591cb960ae1462",
+          "md5": "cc9cb572e22447a7c12ca2e01c9e4971"
+        }
+      ]
+    }
+  ]
+}
