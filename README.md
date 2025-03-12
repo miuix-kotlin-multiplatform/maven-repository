@@ -19,13 +19,13 @@ Reference this repository using the link below.
 > Releases
 
 ```
-https://raw.githubusercontent.com/[organization name or username]/[repository name]/[branch name]/repository/releases
+https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/releases
 ```
 
 > SnapShots
 
 ```
-https://raw.githubusercontent.com/[organization name or username]/[repository name]/[branch name]/repository/snapshots
+https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/snapshots
 ```
 
 ### Usage in Gradle Projects
@@ -38,11 +38,11 @@ You can use this repository in any Gradle project.
 repositories {
     maven {
         name = "personal-maven-repository-releases"
-        setUrl("https://raw.githubusercontent.com/[organization name or username]/[repository name]/[branch name]/repository/releases")
+        setUrl("https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/releases")
     }
     maven {
         name = "personal-maven-repository-snapshots"
-        setUrl("https://raw.githubusercontent.com/[organization name or username]/[repository name]/[branch name]/repository/snapshots")
+        setUrl("https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/snapshots")
     }
 }
 ```
@@ -52,9 +52,9 @@ You can also use [SweetDependency](https://github/HighCapable/SweetDependency) t
 ```yaml
 repositories:
   personal-maven-repository-releases:
-    url: https://raw.githubusercontent.com/[organization name or username]/[repository name]/[branch name]/repository/releases
+    url: https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/releases
   personal-maven-repository-snapshots:
-    url: https://raw.githubusercontent.com/[organization name or username]/[repository name]/[branch name]/repository/snapshots
+    url: https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/snapshots
 ```
 
 #### Publish Artifacts to Repository
@@ -96,13 +96,13 @@ publishing {
 > Releases
 
 ```
-https://raw.githubusercontent.com/[组织名或用户名]/[存储库名]/[分支名]/repository/releases
+https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/releases
 ```
 
 > SnapShots
 
 ```
-https://raw.githubusercontent.com/[组织名或用户名]/[存储库名]/[分支名]/repository/snapshots
+https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/snapshots
 ```
 
 针对中国大陆地区无法访问 `raw.githubusercontent.com` 可以使用加速服务，例如 [GitMirror](https://gitmirror.com/)。
@@ -117,11 +117,11 @@ https://raw.githubusercontent.com/[组织名或用户名]/[存储库名]/[分支
 repositories {
     maven {
         name = "personal-maven-repository-releases"
-        setUrl("https://raw.githubusercontent.com/[组织名或用户名]/[存储库名]/[分支名]/repository/releases")
+        setUrl("https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/releases")
     }
     maven {
         name = "personal-maven-repository-snapshots"
-        setUrl("https://raw.githubusercontent.com/[组织名或用户名]/[存储库名]/[分支名]/repository/snapshots")
+        setUrl("https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/snapshots")
     }
 }
 ```
@@ -131,9 +131,9 @@ repositories {
 ```yaml
 repositories:
   personal-maven-repository-releases:
-    url: https://raw.githubusercontent.com/[组织名或用户名]/[存储库名]/[分支名]/repository/releases
+    url: https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/releases
   personal-maven-repository-snapshots:
-    url: https://raw.githubusercontent.com/[组织名或用户名]/[存储库名]/[分支名]/repository/snapshots
+    url: https://raw.githubusercontent.com/miuix-kotlin-multiplatform/maven-repository/main/repository/snapshots
 ```
 
 #### 发布工件到存储库
