@@ -1,0 +1,262 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../miuix/0.3.8/miuix-0.3.8.module",
+    "group": "top.yukonga.miuix.kmp",
+    "module": "miuix",
+    "version": "0.3.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-iosSimulatorArm64Main-0.3.8.klib",
+          "url": "miuix-iossimulatorarm64-0.3.8.klib",
+          "size": 806152,
+          "sha512": "aed3b21f32ead26cc7fb63a9a5e7bf85bc21e6b582786d8b68b79a74d9b3a3cb656b99c910a85eaf074c2f3af2e26be2e9699793d6b214603b9ba262754f07a8",
+          "sha256": "d4f44c787745e55a241620abdf42e1f28404f81cda34cb2c33b9ca873de4c1bd",
+          "sha1": "2978c430f2eeddc6216fb9fdc4d67ecd61ab35df",
+          "md5": "4837e698277234ec9d9551facb680c06"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "miuix-iossimulatorarm64-0.3.8-sources.jar",
+          "url": "miuix-iossimulatorarm64-0.3.8-sources.jar",
+          "size": 146947,
+          "sha512": "52ff891eb803a6dccd94f3c13dd5bc1e2acc091d11346320a678acf527df1d587cecac987004a5f3cb98f3c03da105c8d4ab18f82fb9b11082264fb8bdacdfbe",
+          "sha256": "67afb1eb019a5f85087607ec474f21f92685ab9ea656164601287ce004e9e878",
+          "sha1": "6a48ff054cceb1cce4cea0d590a03d6533d2c3ae",
+          "md5": "9af653128a283c28500f7f20e5f80d19"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-0.3.8.kotlin_resources.zip",
+          "url": "miuix-iossimulatorarm64-0.3.8-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "319a0123d606eb19994c6cc634b6f385a7c460ffb98b70607302909bd2d14802d2e7ab91a2e7513187ce1847f36c9b1c4634d3a8a9aef1de2704a90090495712",
+          "sha256": "1f6e3fa001e3732089285a1de5873bb15e471da2d0bd2bbbae411253f649bb82",
+          "sha1": "608c68945510c3463fa136dd23c944589584bb63",
+          "md5": "684c0effa0d068b03f401d56a1aaadd3"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-iossimulatorarm64-0.3.8-metadata.jar",
+          "url": "miuix-iossimulatorarm64-0.3.8-metadata.jar",
+          "size": 5208,
+          "sha512": "de1304f95ca6a2eff4047e8d1646b556bcb2a53a7d143640a85015c0b085735e5d304a64fadf0ecf30346197527513f82f46b8a56e12a66f2409b7d5b69768db",
+          "sha256": "28ca91aff76d6cfed33590fe07e1c955a32725ffbb4a5ffdaddcd17842629177",
+          "sha1": "e3908cb37c94a80fdc0e09168604bdee6914fe21",
+          "md5": "5e1471e8a58dbdb70d7c4ca2f8ff38e5"
+        }
+      ]
+    }
+  ]
+}
