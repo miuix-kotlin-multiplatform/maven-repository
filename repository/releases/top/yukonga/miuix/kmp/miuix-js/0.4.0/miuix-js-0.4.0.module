@@ -1,0 +1,239 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../miuix/0.4.0/miuix-0.4.0.module",
+    "group": "top.yukonga.miuix.kmp",
+    "module": "miuix",
+    "version": "0.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-js-0.4.0.klib",
+          "url": "miuix-js-0.4.0.klib",
+          "size": 4227336,
+          "sha512": "b24eb9406498bd07912c3a5a829bf26e9b36e8aa992e810516cecbd7d6ebad6422c700e16be6b9f61df6f0d1606d6ae01a24352b1887a037b312ab81a68717cc",
+          "sha256": "777088b7c1e508b8bde63a032a75339d47f6240ada6c52a21bc0ba40d58f9d30",
+          "sha1": "8470c6fe87657322d3f4fdb604ac498e6fa63a7c",
+          "md5": "9079a29aa845d7ae2ee8934d230a8bf5"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-js-0.4.0.klib",
+          "url": "miuix-js-0.4.0.klib",
+          "size": 4227336,
+          "sha512": "b24eb9406498bd07912c3a5a829bf26e9b36e8aa992e810516cecbd7d6ebad6422c700e16be6b9f61df6f0d1606d6ae01a24352b1887a037b312ab81a68717cc",
+          "sha256": "777088b7c1e508b8bde63a032a75339d47f6240ada6c52a21bc0ba40d58f9d30",
+          "sha1": "8470c6fe87657322d3f4fdb604ac498e6fa63a7c",
+          "md5": "9079a29aa845d7ae2ee8934d230a8bf5"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "miuix-js-0.4.0-sources.jar",
+          "url": "miuix-js-0.4.0-sources.jar",
+          "size": 145857,
+          "sha512": "38b9d4fdb853e015dc9bd09e1d624b651dcd6f56601858d55476b1a36c25f0d5b407398e02dd0f2b50c78c89d7840fdf8e1d4f006cb7a89a343a661eac427d83",
+          "sha256": "3795771e4926f37c634d888fe38f6ba5bec3eed8546742ca9d5efb6c3a73f282",
+          "sha1": "63f911f97171a98f77b3a6f6a3ad9922c576394a",
+          "md5": "f3556fe621549310f1b5549361ebfed1"
+        }
+      ]
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.components",
+          "module": "components-resources",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.graphics",
+          "module": "graphics-shapes",
+          "version": {
+            "requires": "1.0.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.8.0-beta01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-0.4.0.kotlin_resources.zip",
+          "url": "miuix-js-0.4.0-kotlin_resources.kotlin_resources.zip",
+          "size": 342,
+          "sha512": "ce3f65ce224d717addff04ecf80d37427db3a27f2ee34002c596091c9bf695c6937267f3a6c870e5fd3f9d46359315e316d15831e44f0ffd435507cdb1df87a1",
+          "sha256": "152344bc572f2335967f570464a905cde049da4afce5cebbacb5ea25d673995a",
+          "sha1": "b6082b58bfa7df3ee4e1e22872d9d54700646d6f",
+          "md5": "ff10039a5b9bc45a43eb7cf9dca81caa"
+        }
+      ]
+    }
+  ]
+}
