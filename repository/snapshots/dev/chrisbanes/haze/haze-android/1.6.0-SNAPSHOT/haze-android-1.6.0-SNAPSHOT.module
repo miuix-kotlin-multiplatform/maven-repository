@@ -25,13 +25,6 @@
       },
       "dependencies": [
         {
-          "group": "androidx.compose.ui",
-          "module": "ui",
-          "version": {
-            "requires": "1.7.8"
-          }
-        },
-        {
           "group": "org.jetbrains.compose.ui",
           "module": "ui",
           "version": {
@@ -50,11 +43,11 @@
         {
           "name": "haze-release.aar",
           "url": "haze-android-1.6.0-SNAPSHOT.aar",
-          "size": 141774,
-          "sha512": "5b57a9f8dd1542e73932fe17f2694890dfed712809a3372900a9ad835d4cfb8112a4bd056217130fe2c366e556e042d669b4c74f1751f312810e8ee179193bb4",
-          "sha256": "3f5cff575f6bea36c3a1cd4740c6eda0659654ac29ac658179373454217fada2",
-          "sha1": "94559232cac88abf4433262de3b87a16e8fee94c",
-          "md5": "5270b93cbda08f0b605ff6cf8d0ce288"
+          "size": 184505,
+          "sha512": "41f0e14ef1f0001c540e24dd90bd0c7ec09cf28430feaab683ba7e5ba2355e40fb51e7d42b87ac88d9d7d5b50fd5328167e782038a8d264679061dcf0c430c5a",
+          "sha256": "979d3aeeef7dd1a64538ab7b7171651ad5490a01da450535055d7c78029561a3",
+          "sha1": "f1ced5b3b284808c695976cd97dc3d69cde8c768",
+          "md5": "60176265617eeb0833f297bb6037f7f6"
         }
       ]
     },
@@ -68,52 +61,10 @@
       },
       "dependencies": [
         {
-          "group": "androidx.compose.ui",
-          "module": "ui",
+          "group": "androidx.activity",
+          "module": "activity",
           "version": {
-            "requires": "1.7.8"
-          },
-          "excludes": [
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-stdlib-common"
-            },
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-test-common"
-            },
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-test-annotations-common"
-            }
-          ]
-        },
-        {
-          "group": "androidx.compose.foundation",
-          "module": "foundation",
-          "version": {
-            "requires": "1.7.8"
-          },
-          "excludes": [
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-stdlib-common"
-            },
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-test-common"
-            },
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-test-annotations-common"
-            }
-          ]
-        },
-        {
-          "group": "androidx.core",
-          "module": "core-ktx",
-          "version": {
-            "requires": "1.15.0"
+            "requires": "1.10.1"
           },
           "excludes": [
             {
@@ -192,38 +143,17 @@
               "module": "kotlin-test-annotations-common"
             }
           ]
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          },
-          "excludes": [
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-stdlib-common"
-            },
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-test-common"
-            },
-            {
-              "group": "org.jetbrains.kotlin",
-              "module": "kotlin-test-annotations-common"
-            }
-          ]
         }
       ],
       "files": [
         {
           "name": "haze-release.aar",
           "url": "haze-android-1.6.0-SNAPSHOT.aar",
-          "size": 141774,
-          "sha512": "5b57a9f8dd1542e73932fe17f2694890dfed712809a3372900a9ad835d4cfb8112a4bd056217130fe2c366e556e042d669b4c74f1751f312810e8ee179193bb4",
-          "sha256": "3f5cff575f6bea36c3a1cd4740c6eda0659654ac29ac658179373454217fada2",
-          "sha1": "94559232cac88abf4433262de3b87a16e8fee94c",
-          "md5": "5270b93cbda08f0b605ff6cf8d0ce288"
+          "size": 184505,
+          "sha512": "41f0e14ef1f0001c540e24dd90bd0c7ec09cf28430feaab683ba7e5ba2355e40fb51e7d42b87ac88d9d7d5b50fd5328167e782038a8d264679061dcf0c430c5a",
+          "sha256": "979d3aeeef7dd1a64538ab7b7171651ad5490a01da450535055d7c78029561a3",
+          "sha1": "f1ced5b3b284808c695976cd97dc3d69cde8c768",
+          "md5": "60176265617eeb0833f297bb6037f7f6"
         }
       ]
     },
@@ -242,11 +172,11 @@
         {
           "name": "haze-android-sources.jar",
           "url": "haze-android-1.6.0-SNAPSHOT-sources.jar",
-          "size": 33934,
-          "sha512": "ebcab80a602478d0564848089cbdc98345127651b24088005b5ca657683798e265d6b74863d721977c32e168d6cfc0b8c9139a09d502b7c13871ca32c095ed6c",
-          "sha256": "e238ece4e8e5f70cd0ca255fa44711abc430df59d1946448ec5b43a7e274b81a",
-          "sha1": "b28b76c9f01c318a44910abe5b8a5a647c5dba7c",
-          "md5": "ee183f5ac25bbe2f5402ee523335a561"
+          "size": 41408,
+          "sha512": "7ca295a39f17c6ecc220f53658761d2c5b6dc986757d8c9cec6d56de0ea85a3e7c7f2439568cffb59d99418bd9142c7f0845c0b9c1ca376bc551a32e673d72ba",
+          "sha256": "92da697e93609cca68c23acbe8601c5bfbbf69d8acb27db5995aff17e5711460",
+          "sha1": "f50334358f3d81c5f80a6d78d048c9065448ad6c",
+          "md5": "4024e392c5b286b1e7e245f7c48509f3"
         }
       ]
     }

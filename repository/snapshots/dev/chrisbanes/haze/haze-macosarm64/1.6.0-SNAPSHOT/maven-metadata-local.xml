@@ -3,7 +3,7 @@
   <groupId>dev.chrisbanes.haze</groupId>
   <artifactId>haze-macosarm64</artifactId>
   <versioning>
-    <lastUpdated>20250312074921</lastUpdated>
+    <lastUpdated>20250419042248</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,41 +11,41 @@
       <snapshotVersion>
         <extension>klib</extension>
         <value>1.6.0-SNAPSHOT</value>
-        <updated>20250312074921</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.6.0-SNAPSHOT</value>
-        <updated>20250312074921</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>kotlin_resources</classifier>
-        <extension>kotlin_resources.zip</extension>
-        <value>1.6.0-SNAPSHOT</value>
-        <updated>20250312074921</updated>
+        <updated>20250419042248</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
         <value>1.6.0-SNAPSHOT</value>
-        <updated>20250312074921</updated>
+        <updated>20250419042248</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>1.6.0-SNAPSHOT</value>
-        <updated>20250312074921</updated>
+        <updated>20250419042248</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
+        <extension>module</extension>
         <value>1.6.0-SNAPSHOT</value>
-        <updated>20250312074921</updated>
+        <updated>20250419042248</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>kotlin_resources</classifier>
+        <extension>kotlin_resources.zip</extension>
+        <value>1.6.0-SNAPSHOT</value>
+        <updated>20250419042248</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>metadata</classifier>
         <extension>jar</extension>
         <value>1.6.0-SNAPSHOT</value>
-        <updated>20250312074921</updated>
+        <updated>20250419042248</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.6.0-SNAPSHOT</value>
+        <updated>20250419042248</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

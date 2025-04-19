@@ -46,24 +46,17 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
         {
           "name": "haze-iosArm64Main.klib",
           "url": "haze-iosarm64-1.6.0-SNAPSHOT.klib",
-          "size": 158529,
-          "sha512": "0a60107fc48101500e449c7f8662811520eb6e1a7cfcc8dc1b7ae4ca5c31426b67f45c3ac14211bbad7a95b36d8c2730e506d41eb5af705fd9b08a32b03d5b00",
-          "sha256": "eede16fa186b7f4da211e53c2cf16a90bc18a5589ac381320a63d1cb4a1b8364",
-          "sha1": "95aec249433c56613d8413c967686e72b771bd0d",
-          "md5": "0a49610547cad52576aec8600e85bf84"
+          "size": 178252,
+          "sha512": "64e74a91222d06d4390c87b3c5b8e32455a28c6d53af7fb5206e3b655d9895a209a2c21fc0a53444ccd26db934f2fc51821655f05d51b5f72d3c623d7198e3ef",
+          "sha256": "797cece409729751f24ae1f10bd8729895e62cbd22d055a4d23f8b66937d2b03",
+          "sha1": "d4eaf9c55689b9717cc18bc32f3fadf23278e2d7",
+          "md5": "065d09a94eb173a77f2a9a3954f105fc"
         }
       ]
     },
@@ -82,11 +75,11 @@
         {
           "name": "haze-iosarm64-sources.jar",
           "url": "haze-iosarm64-1.6.0-SNAPSHOT-sources.jar",
-          "size": 32516,
-          "sha512": "599e2661717ade412ba6d093ff6b8dba6606f8744f43f4bb6687e28830168b8039b7a6c67ada1326672f480c5255ddc6e895364a5dc9e8a2587e092a603fc1fd",
-          "sha256": "95deb1f157223120981261d3995da38f2c8f65af8fe1fadfae6c91a7c3c3755e",
-          "sha1": "f80f52691dc7e161c1e4d0bcdae755b2919913cc",
-          "md5": "92272a9f1782088e0badc1b349a551da"
+          "size": 36509,
+          "sha512": "976d09b7883df7c8cfe53a495c1c4fcb9afda75c42b21de763a3b7f68615db44f0781ebf950e94f23a589946c0e6294ae73851603bbe8b90d5120aee7d57979e",
+          "sha256": "355c5117655a10a449b2c9597969f4f0a55f45fad40b8771d8b3bd42d1ff24fa",
+          "sha1": "b638f3dff46a976cbd827346b84d045942780c3b",
+          "md5": "7049ecd1946b281a0bc9042a90313137"
         }
       ]
     },
@@ -122,13 +115,6 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
@@ -136,10 +122,10 @@
           "name": "haze.kotlin_resources.zip",
           "url": "haze-iosarm64-1.6.0-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
           "size": 316,
-          "sha512": "dc337a340f8540c71b1302e01428e1338ba22909935de3af57ac9b5e575dd9988ef4713e96a3fceff12853069809cac08ba7e3725868c412850aa702fb3b4fa2",
-          "sha256": "0c2c9923e3184604279911cfe635ef030a855fc5928b7262a18faa8dc5da4e81",
-          "sha1": "6cc5db032ad6b30dafc740e1c0591cb960ae1462",
-          "md5": "cc9cb572e22447a7c12ca2e01c9e4971"
+          "sha512": "bf7fe1a2682dc22ca4b9262d0e29fb1cfb1f2e2c89a4f8e6ecd2034dc8b3491a964969df67c418ff6be0840719d24bce61ea6bd757cc898f54add7adac8f2818",
+          "sha256": "f28247f44cce1ca5c28d277dc0996346957424520c29b9ce92cb4daa3f96223a",
+          "sha1": "f520652ad156e4a8f824b40079cdabf9abc07caa",
+          "md5": "57305aeee4cf6e1a1b4b5d85ad6be641"
         }
       ]
     },
@@ -174,13 +160,6 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
@@ -188,10 +167,10 @@
           "name": "haze-iosarm64-metadata.jar",
           "url": "haze-iosarm64-1.6.0-SNAPSHOT-metadata.jar",
           "size": 2856,
-          "sha512": "5864803b32eadd1e135d9e4663325a2164645c9241b589b45eb6f8c800ce42815c4592801489b2e05a26e8380acdb17a5507664cd87c5a0fff2258e7166fdb34",
-          "sha256": "4c3c5e6684a022cd81ab19e766ead4bd676f65abf0fcde8abf0f2007087ec4f4",
-          "sha1": "30a34152b5d4650fdd9dffb05d935b8573032059",
-          "md5": "82eb9deb3b74495dee09f88c2b86d815"
+          "sha512": "14b92db9065861cb6cb5cf4e6beeab8570422d6ff6288612039b5098dbddd626ede9cead58407c43f859a03ff787a0e578f3128006fec5b031bb1a9a6872b7b6",
+          "sha256": "a2191b2b3837eb92a201a39d2c7f163c8b1707f77ee29433c6c38816267a4c30",
+          "sha1": "ac33e7c80895b3e0f4b55069c904e08daf793144",
+          "md5": "876803eb4b17bf8766d618e790c41fe7"
         }
       ]
     }

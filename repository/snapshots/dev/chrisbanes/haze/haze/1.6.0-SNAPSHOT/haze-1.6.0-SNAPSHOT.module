@@ -43,24 +43,17 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
         {
           "name": "haze-metadata.jar",
           "url": "haze-1.6.0-SNAPSHOT.jar",
-          "size": 22275,
-          "sha512": "9ddfd079e0eb9fd61258bfd2e7e4108d5504c8a43a974ceae569933493331fcd262cead0536fa71170ecbd644268f4093b5641adee95ccda83f1b1b99e7b5aba",
-          "sha256": "39ef28fa3104953f5fb3a2d62d6cb544efc251f2a672f8189abb0e4535900825",
-          "sha1": "18092af6607654bad4cd494610fcf446a655d290",
-          "md5": "dd88fd7075428cfa48d14141e7b4e174"
+          "size": 25471,
+          "sha512": "bea388ae23fa728a4c5604a03ed6a29bc7c3b8bd28cc1aec189fcf3b4a7f972d1600848070e773bc6934d37e4088fee6a5260ce33a0cc30b58581c1dae4a35f5",
+          "sha256": "d5d350698f9492257ba9297db6e00a2fdbe35c80588ebfe17a0c45b0a6da5631",
+          "sha1": "2c175d0d5aee303646a75fef0e69135ddd88f8fd",
+          "md5": "95fefb410560a0975e272d57f3092682"
         }
       ]
     },
@@ -78,11 +71,11 @@
         {
           "name": "haze-kotlin-sources.jar",
           "url": "haze-1.6.0-SNAPSHOT-sources.jar",
-          "size": 32516,
-          "sha512": "599e2661717ade412ba6d093ff6b8dba6606f8744f43f4bb6687e28830168b8039b7a6c67ada1326672f480c5255ddc6e895364a5dc9e8a2587e092a603fc1fd",
-          "sha256": "95deb1f157223120981261d3995da38f2c8f65af8fe1fadfae6c91a7c3c3755e",
-          "sha1": "f80f52691dc7e161c1e4d0bcdae755b2919913cc",
-          "md5": "92272a9f1782088e0badc1b349a551da"
+          "size": 36509,
+          "sha512": "976d09b7883df7c8cfe53a495c1c4fcb9afda75c42b21de763a3b7f68615db44f0781ebf950e94f23a589946c0e6294ae73851603bbe8b90d5120aee7d57979e",
+          "sha256": "355c5117655a10a449b2c9597969f4f0a55f45fad40b8771d8b3bd42d1ff24fa",
+          "sha1": "b638f3dff46a976cbd827346b84d045942780c3b",
+          "md5": "7049ecd1946b281a0bc9042a90313137"
         }
       ]
     },

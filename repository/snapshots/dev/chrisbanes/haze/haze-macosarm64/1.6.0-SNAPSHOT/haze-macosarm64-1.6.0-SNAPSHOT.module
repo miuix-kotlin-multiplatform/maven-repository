@@ -46,24 +46,17 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
         {
           "name": "haze-macosArm64Main.klib",
           "url": "haze-macosarm64-1.6.0-SNAPSHOT.klib",
-          "size": 158532,
-          "sha512": "4830dfdbcab5f25d7fb5a376f6fcbc3d773e5a8ff25ae151f349dd05d2b9e309862512620c9c3a0b379774a8ca95ea1e84bfb8db17da1cc7417b088c82d8c866",
-          "sha256": "53405efdc9417f43976b8a1f3cb452e94bed48c47d37a5cde26a5e05c97563d6",
-          "sha1": "c0cd58176161a2b2112681743a8fc04107b783f4",
-          "md5": "33481a0081474772a3985d52dd9032b9"
+          "size": 178255,
+          "sha512": "bfd0c8ef40376b9966e251bdf8da42864a2a52f4ab968bbc1089b4922e2a93e1e0b3d6339ea20a32b16d36d49cde589a4577e4bd991988fb9ac1932d704a2408",
+          "sha256": "a3c507ea30ef52fa075945d7a0e10af3db4a566f24a4034e7e64d7e95cb1d506",
+          "sha1": "0325a554dbf073f3c53c598ad59ce1beda1d6949",
+          "md5": "415015034a98bc4d5d510b340197870a"
         }
       ]
     },
@@ -82,11 +75,11 @@
         {
           "name": "haze-macosarm64-sources.jar",
           "url": "haze-macosarm64-1.6.0-SNAPSHOT-sources.jar",
-          "size": 32516,
-          "sha512": "599e2661717ade412ba6d093ff6b8dba6606f8744f43f4bb6687e28830168b8039b7a6c67ada1326672f480c5255ddc6e895364a5dc9e8a2587e092a603fc1fd",
-          "sha256": "95deb1f157223120981261d3995da38f2c8f65af8fe1fadfae6c91a7c3c3755e",
-          "sha1": "f80f52691dc7e161c1e4d0bcdae755b2919913cc",
-          "md5": "92272a9f1782088e0badc1b349a551da"
+          "size": 36509,
+          "sha512": "976d09b7883df7c8cfe53a495c1c4fcb9afda75c42b21de763a3b7f68615db44f0781ebf950e94f23a589946c0e6294ae73851603bbe8b90d5120aee7d57979e",
+          "sha256": "355c5117655a10a449b2c9597969f4f0a55f45fad40b8771d8b3bd42d1ff24fa",
+          "sha1": "b638f3dff46a976cbd827346b84d045942780c3b",
+          "md5": "7049ecd1946b281a0bc9042a90313137"
         }
       ]
     },
@@ -122,13 +115,6 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
@@ -136,10 +122,10 @@
           "name": "haze.kotlin_resources.zip",
           "url": "haze-macosarm64-1.6.0-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
           "size": 316,
-          "sha512": "76630aef2cf6dd5df1f2e33c4c7bdd6e04cdb6716b29da915da28bbe01f967e3c97b8d6e6959b5d9a20750c3073a44939df7a4afe8a0e292f90fab55a6dce95d",
-          "sha256": "5c3c660373a164db3c3eabd500b79b6acb92ea5b223377888505b0ffbdbde85e",
-          "sha1": "9c96efd539cb816d4b79d4a94e578ab4f7b13f3f",
-          "md5": "cd9b414e944723c1bc50ad2ff1f6e71c"
+          "sha512": "e0d1e3557c8b5dfac99ba7b9d732f6f400ee9ac252240cba6fdfa22b70dc46fef2a2f9f5964c76d2a0952554b4dba01adfa4a60e7143066cacdff20dd6ebfdad",
+          "sha256": "6cc8e24a3b24746dd7b474dfb4f206e08fe111b7d20d2b5a22a1ab168c3ad1c0",
+          "sha1": "85c330b7c78b359b634cfe9a59141005017518be",
+          "md5": "8441a50b2b706954ecd573871d91d59e"
         }
       ]
     },
@@ -174,13 +160,6 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
@@ -188,10 +167,10 @@
           "name": "haze-macosarm64-metadata.jar",
           "url": "haze-macosarm64-1.6.0-SNAPSHOT-metadata.jar",
           "size": 2856,
-          "sha512": "5864803b32eadd1e135d9e4663325a2164645c9241b589b45eb6f8c800ce42815c4592801489b2e05a26e8380acdb17a5507664cd87c5a0fff2258e7166fdb34",
-          "sha256": "4c3c5e6684a022cd81ab19e766ead4bd676f65abf0fcde8abf0f2007087ec4f4",
-          "sha1": "30a34152b5d4650fdd9dffb05d935b8573032059",
-          "md5": "82eb9deb3b74495dee09f88c2b86d815"
+          "sha512": "14b92db9065861cb6cb5cf4e6beeab8570422d6ff6288612039b5098dbddd626ede9cead58407c43f859a03ff787a0e578f3128006fec5b031bb1a9a6872b7b6",
+          "sha256": "a2191b2b3837eb92a201a39d2c7f163c8b1707f77ee29433c6c38816267a4c30",
+          "sha1": "ac33e7c80895b3e0f4b55069c904e08daf793144",
+          "md5": "876803eb4b17bf8766d618e790c41fe7"
         }
       ]
     }

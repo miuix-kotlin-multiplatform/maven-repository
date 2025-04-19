@@ -44,11 +44,11 @@
         {
           "name": "haze-wasm-js.klib",
           "url": "haze-wasm-js-1.6.0-SNAPSHOT.klib",
-          "size": 158639,
-          "sha512": "cb62dca697c846d153da908ed1d0fa2e1f8d2d486532c23102d8efbb6c1a837bbeb2ca317c9f39ca6934543f4f01d7a75c952698dbcdfb40c6e81c2540f81f07",
-          "sha256": "8c218c8a508164b6e35e587c0c6750f69087d1c76f874fdc47de2f586da95fe2",
-          "sha1": "6d4e4e33b20fc21ac33669313e2e33866395bf93",
-          "md5": "9a8b266a09fe89c5b644aebc2626e8b3"
+          "size": 178357,
+          "sha512": "6a04f836dde2c2cb1e6f2f9d3642977c33c0dc115329b7629b0f99caeb53d86f7988171baaf78959c5adb8f0db3c37be4006b078cfa8384875c835f94965809e",
+          "sha256": "8490ab3e49c00d020ff7a50c489cfd6c18d57c564e542bb47d2c0c45b9abffb1",
+          "sha1": "4ac7892e4874f021b194409426c0508947041c65",
+          "md5": "df88d03b33c97ca614ebce0bc47535eb"
         }
       ]
     },
@@ -89,24 +89,17 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
         {
           "name": "haze-wasm-js.klib",
           "url": "haze-wasm-js-1.6.0-SNAPSHOT.klib",
-          "size": 158639,
-          "sha512": "cb62dca697c846d153da908ed1d0fa2e1f8d2d486532c23102d8efbb6c1a837bbeb2ca317c9f39ca6934543f4f01d7a75c952698dbcdfb40c6e81c2540f81f07",
-          "sha256": "8c218c8a508164b6e35e587c0c6750f69087d1c76f874fdc47de2f586da95fe2",
-          "sha1": "6d4e4e33b20fc21ac33669313e2e33866395bf93",
-          "md5": "9a8b266a09fe89c5b644aebc2626e8b3"
+          "size": 178357,
+          "sha512": "6a04f836dde2c2cb1e6f2f9d3642977c33c0dc115329b7629b0f99caeb53d86f7988171baaf78959c5adb8f0db3c37be4006b078cfa8384875c835f94965809e",
+          "sha256": "8490ab3e49c00d020ff7a50c489cfd6c18d57c564e542bb47d2c0c45b9abffb1",
+          "sha1": "4ac7892e4874f021b194409426c0508947041c65",
+          "md5": "df88d03b33c97ca614ebce0bc47535eb"
         }
       ]
     },
@@ -125,11 +118,11 @@
         {
           "name": "haze-wasm-js-sources.jar",
           "url": "haze-wasm-js-1.6.0-SNAPSHOT-sources.jar",
-          "size": 32496,
-          "sha512": "a9576f4fd10ea4912045aca685a1b65ad968f39a1a5cc601758d5da2d8d765a3dd523437773f815a31f5cd4c700c4ce06a0318d763fe7a51437d838399db792b",
-          "sha256": "d8c8f712687f1d38089e037f6ea22a9e9a4fe3f06561e7a1c4a62aef11992186",
-          "sha1": "02f9abd5f4a7dd7fd743f3677767c4c6dec6f0f8",
-          "md5": "3b1b617b04192b7da4a748246950d9e5"
+          "size": 36489,
+          "sha512": "1ac1edc37936c73af1769e21b7e4de8c4bc23b3fc87f11c069589bfb0f6d101a90ac253fec07d63939adb91eece6e70f410aec643fe0c44878bd4665e573f767",
+          "sha256": "d6aada214a6aa33329390226ba5ca993e40cb84c2c4469f751d9ef8ff1adc391",
+          "sha1": "508eb2509549eeb5c69fa0177a75f2babe68e693",
+          "md5": "ed1404c8564860e71963dce70a97887f"
         }
       ]
     },
@@ -172,13 +165,6 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
@@ -186,10 +172,10 @@
           "name": "haze.kotlin_resources.zip",
           "url": "haze-wasm-js-1.6.0-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
           "size": 316,
-          "sha512": "76630aef2cf6dd5df1f2e33c4c7bdd6e04cdb6716b29da915da28bbe01f967e3c97b8d6e6959b5d9a20750c3073a44939df7a4afe8a0e292f90fab55a6dce95d",
-          "sha256": "5c3c660373a164db3c3eabd500b79b6acb92ea5b223377888505b0ffbdbde85e",
-          "sha1": "9c96efd539cb816d4b79d4a94e578ab4f7b13f3f",
-          "md5": "cd9b414e944723c1bc50ad2ff1f6e71c"
+          "sha512": "bb8833d38cb4caeabcd5af9e64192f76433bde9f0f7efe4ec76f37c5fae96c011772ae77dc30e62d5b38c910d8c4c980407c84ce939b075b144c8ec23fa8600b",
+          "sha256": "e4adc5a8a138055e970787f6b8c546c4a81c2120157040ede73c7c39b3fed9d4",
+          "sha1": "7e7f089eb0bfe84f98a978f09d32fe7e5202b3f7",
+          "md5": "301706ebe9e6175d0a4c92c5e2591647"
         }
       ]
     }

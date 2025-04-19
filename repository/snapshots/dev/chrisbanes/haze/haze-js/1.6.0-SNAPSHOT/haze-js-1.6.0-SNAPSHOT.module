@@ -51,11 +51,11 @@
         {
           "name": "haze-js.klib",
           "url": "haze-js-1.6.0-SNAPSHOT.klib",
-          "size": 3467771,
-          "sha512": "da61aaecdccb5dcfc2f21ed5273791616caf97c56be06d1a64e0379ada51f04b4733b07fd180ed2e046ced332cd0dc45f05317cc58bd8ad3889db89040b49f0d",
-          "sha256": "6a34d392ebc130258b9844673e88cddecf70a2e566e69c43ece54b93474c2116",
-          "sha1": "307aba2bcb07a7ca07caafa90e95573a2800e368",
-          "md5": "90af6cd2866b3432dc5afa97609254e4"
+          "size": 3487513,
+          "sha512": "6850e4c1a02b038f9b5a06bb9eb43a417360b5f66514a48e0b9f916a6bded2e4ee8950790ee3d5191acffa176dacc46632b1af463a3e4c87d06735017f50c986",
+          "sha256": "1b1a71f98168efd1de0d26f6ed60ac90244522f813919f7bec454307b92c79bc",
+          "sha1": "fcd5439b2d0c000d590901ed00abfc32fbc1f7e5",
+          "md5": "8e867f912e46d181ce5e58d473b94cb1"
         }
       ]
     },
@@ -96,24 +96,17 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
         {
           "name": "haze-js.klib",
           "url": "haze-js-1.6.0-SNAPSHOT.klib",
-          "size": 3467771,
-          "sha512": "da61aaecdccb5dcfc2f21ed5273791616caf97c56be06d1a64e0379ada51f04b4733b07fd180ed2e046ced332cd0dc45f05317cc58bd8ad3889db89040b49f0d",
-          "sha256": "6a34d392ebc130258b9844673e88cddecf70a2e566e69c43ece54b93474c2116",
-          "sha1": "307aba2bcb07a7ca07caafa90e95573a2800e368",
-          "md5": "90af6cd2866b3432dc5afa97609254e4"
+          "size": 3487513,
+          "sha512": "6850e4c1a02b038f9b5a06bb9eb43a417360b5f66514a48e0b9f916a6bded2e4ee8950790ee3d5191acffa176dacc46632b1af463a3e4c87d06735017f50c986",
+          "sha256": "1b1a71f98168efd1de0d26f6ed60ac90244522f813919f7bec454307b92c79bc",
+          "sha1": "fcd5439b2d0c000d590901ed00abfc32fbc1f7e5",
+          "md5": "8e867f912e46d181ce5e58d473b94cb1"
         }
       ]
     },
@@ -132,11 +125,11 @@
         {
           "name": "haze-js-sources.jar",
           "url": "haze-js-1.6.0-SNAPSHOT-sources.jar",
-          "size": 32414,
-          "sha512": "0fad91d2d5363cf87883a53d1612dcf1b494a2e00673d291537f82b0a1fc43b2538fbc3d916cd5e7a8b83beda5a810778ec116f9b53387fbbb04db1b9099c4f4",
-          "sha256": "cda0c7cf6448378946338e5b7475eb653ecaade6e1be00411b3a8e0fd9cc9cd5",
-          "sha1": "5c094298e01caa33e1a0e0c9e002c8bb79e9ac93",
-          "md5": "7f331848a1e4afaef4f3f51dde195728"
+          "size": 36407,
+          "sha512": "3489a4dc1df7eafedbd97586e96eb998fe4ffda471e6a111d87a31fb773dcebc5b8592d34a35b6118ac951c4e7db1e485fe99bc482e6d18b48ea60f6431561c4",
+          "sha256": "eaf2cb55dcf070155dae37467586794ec1440edc5fa31258a53afab946c90f40",
+          "sha1": "f7de6a41352fa7ae9301c1c344d2196316e0c189",
+          "md5": "440d9cb34d10f145007f3f9d627c2916"
         }
       ]
     },
@@ -179,13 +172,6 @@
           "version": {
             "requires": "1.7.3"
           }
-        },
-        {
-          "group": "org.jetbrains.androidx.lifecycle",
-          "module": "lifecycle-runtime-compose",
-          "version": {
-            "requires": "2.8.4"
-          }
         }
       ],
       "files": [
@@ -193,10 +179,10 @@
           "name": "haze.kotlin_resources.zip",
           "url": "haze-js-1.6.0-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
           "size": 316,
-          "sha512": "dc337a340f8540c71b1302e01428e1338ba22909935de3af57ac9b5e575dd9988ef4713e96a3fceff12853069809cac08ba7e3725868c412850aa702fb3b4fa2",
-          "sha256": "0c2c9923e3184604279911cfe635ef030a855fc5928b7262a18faa8dc5da4e81",
-          "sha1": "6cc5db032ad6b30dafc740e1c0591cb960ae1462",
-          "md5": "cc9cb572e22447a7c12ca2e01c9e4971"
+          "sha512": "bf7fe1a2682dc22ca4b9262d0e29fb1cfb1f2e2c89a4f8e6ecd2034dc8b3491a964969df67c418ff6be0840719d24bce61ea6bd757cc898f54add7adac8f2818",
+          "sha256": "f28247f44cce1ca5c28d277dc0996346957424520c29b9ce92cb4daa3f96223a",
+          "sha1": "f520652ad156e4a8f824b40079cdabf9abc07caa",
+          "md5": "57305aeee4cf6e1a1b4b5d85ad6be641"
         }
       ]
     }
